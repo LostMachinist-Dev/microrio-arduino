@@ -1,0 +1,46 @@
+#######################################
+# Syntax colouring for MicroRIO
+#######################################
+
+MicroRIO	KEYWORD1
+MicroRIO_TelemBool	KEYWORD1
+MicroRIO_TelemI32	KEYWORD1
+MicroRIO_TelemF32	KEYWORD1
+MicroRIO_TelemStr	KEYWORD1
+MicroRIO_CtrlBool	KEYWORD1
+MicroRIO_CtrlI32	KEYWORD1
+MicroRIO_CtrlF32	KEYWORD1
+MicroRIO_CtrlStr	KEYWORD1
+MicroRIO_CtrlCmd	KEYWORD1
+
+node	KEYWORD2
+rate	KEYWORD2
+watchdog	KEYWORD2
+maxFrame	KEYWORD2
+begin	KEYWORD2
+loop	KEYWORD2
+telemetry_bool	KEYWORD2
+telemetry_i32	KEYWORD2
+telemetry_f32	KEYWORD2
+telemetry_str	KEYWORD2
+control_bool	KEYWORD2
+control_i32	KEYWORD2
+control_f32	KEYWORD2
+control_str	KEYWORD2
+control_cmd	KEYWORD2
+write	KEYWORD2
+read	KEYWORD2
+fired	KEYWORD2
+enabled	KEYWORD2
+linked	KEYWORD2
+state	KEYWORD2
+schemaHash	KEYWORD2
+watchdogExpired	KEYWORD2
+controlAgeMs	KEYWORD2
+
+MICRORIO_STATE_DISABLED	LITERAL1
+MICRORIO_STATE_ENABLED	LITERAL1
+MICRORIO_STATE_ESTOP	LITERAL1
+MICRORIO_STATE_FAULT	LITERAL1
+MICRORIO_STR_LEN	LITERAL1
+MICRORIO_MAX_NAME_LEN	LITERAL1
