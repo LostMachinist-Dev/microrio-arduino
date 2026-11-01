@@ -195,6 +195,12 @@ why a 2 KB board does not.
 firmware and the driver station cannot drift apart. Do not hand-edit it; change
 the spec and regenerate.
 
+## Changing the library itself
+
+`DEVELOPING.md`, beside this file: how a node runs internally, what is safe to
+change alone and what is a protocol change, the memory budget and how it is
+kept, and how to test against the station's codec over USB.
+
 ## Where the rest of it is
 
 This repository is the board half, packaged on its own so the Arduino IDE can
